@@ -1,38 +1,28 @@
-Basic Data Manipulation and File Handling
-Project Description
+# Basic Data Manipulation and File Handling
 
-This project demonstrates basic data manipulation and file handling using Python. It reads numerical data from a text file, processes each value by calculating its square, and writes the processed results to an output file.
+## Description
+This project demonstrates basic file handling and data manipulation using Python. It reads numerical data from a text file, processes each value by squaring it, and writes the results to an output file.
 
-Functionality
+## Features
+- Reads numbers from a text file
+- Processes data using Python
+- Writes processed output to a new file
+- Simple and beginner-friendly implementation
 
-Reads multiple numbers from a text file
-
-Converts each value to an integer
-
-Calculates the square of each number
-
-Writes the squared values to another text file
-
-Input
-
+## Input
 A text file containing numbers, with one number per line.
 
-Output
+## Output
+A text file containing the square of each input number.
 
-A text file containing the square of each input number, written line by line.
+## Technologies Used
+- Python 3
+- File Handling
+- List Comprehension
 
-Technologies Used
-
-Python
-
-File Handling
-
-List Comprehension
-
-Usage
-
-Run the Python script after ensuring the input file is present in the same directory.
-
-Purpose
-
-This project is intended for beginners to understand file handling and basic data processing in Python.
+## How to Run
+1. Ensure Python is installed on your system
+2. Place the input file in the same directory as the script
+3. Run the script using:
+   ```bash
+   python main.py
